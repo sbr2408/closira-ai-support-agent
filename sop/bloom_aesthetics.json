@@ -1,0 +1,46 @@
+{
+  "business_name": "Bloom Aesthetics Clinic",
+  "description": "A boutique aesthetics clinic offering non-surgical cosmetic treatments.",
+  "hours": {
+    "days": "Monday–Saturday",
+    "open": "9:00",
+    "close": "19:00",
+    "timezone": "Europe/London",
+    "closed": "Sunday"
+  },
+  "services": [
+    {
+      "name": "Botox",
+      "starting_price_gbp": 200,
+      "notes": "Price varies by treatment area; exact quote at consultation."
+    },
+    {
+      "name": "Fillers",
+      "starting_price_gbp": 250,
+      "notes": "Price varies by product and volume; exact quote at consultation."
+    },
+    {
+      "name": "Consultations",
+      "starting_price_gbp": 0,
+      "notes": "Free initial consultation for new clients."
+    }
+  ],
+  "booking": {
+    "channels": ["WhatsApp", "website"],
+    "cancellation_policy": "24 hours notice required for cancellations or rescheduling."
+  },
+  "escalation_rules": [
+    "Customer complaint or dissatisfaction",
+    "Medical or clinical safety question",
+    "Pricing negotiation or discount requests",
+    "More than two consecutive questions the SOP cannot answer",
+    "Explicit request to speak with a human",
+    "Angry or hostile sentiment"
+  ],
+  "qualification_questions": [
+    "What type of business are you enquiring on behalf of (e.g. sole trader, salon, clinic)?",
+    "Roughly how many team members handle customer enquiries?",
+    "Which tools do you currently use for WhatsApp, email, or phone support?"
+  ],
+  "tone_guidelines": "Warm, professional, concise. Use British English. Never provide medical advice."
+}
